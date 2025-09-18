@@ -155,7 +155,7 @@ int main() {
 
      else if (kun==6) {cout << "saturday"<<endl;}
      else if (kun==7) {cout << "sunday"<<endl;}
-     else  {cout << "there is no such weekday"<<endl;}   */
+     else  {cout << "there is no such weekday"<<endl;}
 
 
     //problem 15
@@ -179,7 +179,23 @@ int main() {
 
 
 
+                                       */
 
+
+    //problem 16
+
+
+
+
+
+     //problem 17
+
+  int num;
+  cout << "Please enter a number: ";
+ cin >> num;
+ switch (num) {
+  case
+ }
 
 
 
