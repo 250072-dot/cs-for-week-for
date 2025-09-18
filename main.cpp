@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <cctype>
+#include <map>
 using namespace std;
 
 int main() {
@@ -158,6 +159,24 @@ int main() {
 
 
     //problem 15
+
+     int today,future;
+     cout <<" Enter the number of today's day: " ;
+     cin >>today;
+     cout << "enter the number of days elapsed since today: ";
+     cin >>future;
+     int aft=(today+future)%7;
+     map<int, string>lugat;
+ lugat[1] = "monday";
+ lugat[2]="tuesday";
+ lugat[3]="wednesday";
+ lugat[4]="thursday";
+ lugat[5]="friday";
+ lugat[6]="saturday";
+ lugat[0]="sunday";
+ lugat[7]="sunday";
+    cout << "today is "<<lugat[today]<< " and after "<<future<<"  days"<<" the day will be "<<lugat[aft]<<endl;
+
 
 
 
