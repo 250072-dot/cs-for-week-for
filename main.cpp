@@ -3,12 +3,18 @@
 using namespace std;
 
 int main() {
-   /* int x;
+ /*
+  // problem 1
+
+   int x;
     cout<<"Enter a number: ";
     cin>>x;
    if (x>0) { cout<<"positive"<<endl; }
     else { cout<<"negative"<<endl; }
-//problem 2
+
+
+   //problem 2
+
     if (x%2==0) { cout<<" the number is even and "<< ((x>0) ? "positive" : "negative")<<endl; }
     else { cout<<"The number is odd and "<<((x>0) ? "positive" : "negative")<<endl; }
     //problem 3
@@ -22,13 +28,17 @@ int main() {
 
 
     //problem 4
-    int a1,a2;
+
+
+    int a1,aa1;
     cout<<"enter 2 numbers , i will check first divided by second"<<endl;
-    cin>>a1>>a2;
-    if (a1%a2==0) {cout<<"can be divided by second"<<endl;}
+    cin>>a1>>aa1;
+    if (a1 % aa1==0) {cout<<"can be divided by second"<<endl;}
     else {cout<<"can not be divided by second"<<endl;}
 
     //problem 5
+
+
     cout<<"enter any year"<<endl;
     int year;
     cin >>year;
@@ -36,6 +46,8 @@ int main() {
     else {cout<<"this is not a leap year"<<endl;}
 
     //problem 6
+
+
     float a,b,c;
     cout<<"Enter a,b and c: "<<endl;
     cin>>a>>b>>c;
@@ -72,24 +84,61 @@ int main() {
     //problem 9
 
 
+    float spe;
+    cout << "enter the speed :";
+    cin >>spe;
+    if (spe<20) {cout << " your speed is very slow"<< endl;}
+    else if (spe>20 && spe<120) {cout << " your speed is normal, go ahaed!"<< endl;}
+    else {cout << " your speed is very fast"<< endl;}
+
+
+
 
     // problem 10
+
+
     float x4,y4;
      cout << "enter x cordinate :";
     cin >> x4;
     cout << "enter y cordinate :";
     cin >> y4;
     if (pow(x4, 2)+pow(y4, 2)<=100) {cout << "this point lies in the circle";}
-    else {cout<<"this is out of the circle" <<endl;}  */
+    else {cout<<"this is out of the circle" <<endl;}
+
+    //problem 11
+
+
+    float we1,we2,pr1,pr2;
+    cout << "enter weight ang price of package 1 :";
+    cin >> we1 >> pr1;
+    cout << "enter weight ang price of package 2 :";
+    cin >> we2 >> pr2;
+    cout <<pr1<<pr2<<we1<<we2 <<endl;
+    if (pr1/we1 > pr2/we2) {cout<<"package 2 has better price"<<endl;}
+    else if (pr2/we2>we1/pr1) {cout<<"package 1 has better price"<<endl;}
+    else {cout<<"they are equal"<<endl;}
 
     //problem 12
+
+
     int pol;
     cout << "a three-digit integer: ";
     cin >> pol;
     if (pol/100==pol%10 && pol !=0) {cout << "this is polindrom";}
     else {cout << "this is not polindrom";}
 
+    //porblem 13
 
+    char light;
+    cout << "enter a traffic lihgt colour :";
+    cin >> light;
+    if (light == 'r') {cout << "stop";}
+    else if (light == 'g') {cout << "go"<<endl;}
+    else if (light == 'y') {cout << "get ready!"<<endl;}
+    else {cout << " you should use only r,g,y"<<endl;}                   */
+
+
+   // problem 14
 
 
 
