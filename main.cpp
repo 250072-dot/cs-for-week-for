@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 #include <cctype>
 using namespace std;
 
@@ -135,10 +136,33 @@ int main() {
     if (light == 'r') {cout << "stop";}
     else if (light == 'g') {cout << "go"<<endl;}
     else if (light == 'y') {cout << "get ready!"<<endl;}
-    else {cout << " you should use only r,g,y"<<endl;}                   */
 
+
+    else {cout << " you should use only r,g,y"<<endl;}
 
    // problem 14
+
+
+     int kun;
+     cout <<"kunni kirit: ";
+     cin >> kun;
+     if (kun==1) {cout << "monday"<<endl;}
+     else if (kun==2) {cout << "tuesday"<<endl;}
+     else if (kun==3) {cout << "wednesday"<<endl;}
+     else if (kun==4) {cout << "thursday"<<endl;}
+     else if (kun==5) {cout << "friday"<<endl;}
+
+     else if (kun==6) {cout << "saturday"<<endl;}
+     else if (kun==7) {cout << "sunday"<<endl;}
+     else  {cout << "there is no such weekday"<<endl;}   */
+
+
+    //problem 15
+
+
+
+
+
 
 
 
