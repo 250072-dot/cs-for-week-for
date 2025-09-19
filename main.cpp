@@ -179,27 +179,107 @@ int main() {
 
 
 
-                                       */
+
 
 
     //problem 16
 
 
+  int grade;
+  cout << "Enter grade (0-100): ";
+  cin >> grade;
+
+  switch (grade / 10) {
+   case 10:   // 100 uchun
+   case 9: cout << "A" << endl; break;
+   case 8: cout << "B" << endl; break;
+   case 7: cout << "C" << endl; break;
+   case 6: cout << "D" << endl; break;
+   default: cout << "F" << endl; }
 
 
 
-     //problem 17
 
-  int num;
-  cout << "Please enter a number: ";
- cin >> num;
- switch (num) {
-  case
+ //problem 17
+
+ float num9;
+ int be;
+ cout << "enter a number :";
+ cin >> num9;
+ if (num9>0) be=1;
+else if (num9<0) be=-1;
+ else be=0;
+ switch (be) {
+  case 1: cout << "positive number"; break;
+  case 0: cout << "zero number"; break;
+  case -1: cout << "negative number"; break;
  }
 
 
 
 
+ //problem 18
 
-    return 0;
+ char lang;
+ cout << "select a language that computer greets them: u,e,r,g >> ";
+ cin >> lang;
+ switch (lang) {
+  case 'u':cout << "salom" << endl;
+   case  'e':cout << "hello" << endl;
+   case  'r': cout << "здрастие" << endl;
+  case 'g' : cout << "Hallo" << endl;
+   default: cout << "none" << endl;
+
+ }
+
+
+
+ //problem 19
+float wieght;
+ int cas;
+ cout << "enter the wieght :";
+ cin >> wieght;
+ if (0<wieght && wieght<= 1) cas = 1;
+ else if (1<wieght && wieght<=3) cas = 2;
+ else if (3<wieght && wieght<=10) cas = 3;
+ else if (10<wieght && wieght<=20) cas = 4;
+ else if (wieght>20) cas=5;
+ else cas=6;
+
+ switch (cas) {
+  case 1: cout <<3500<<endl; break;
+   case 2: cout <<5500<<endl; break;
+   case 3: cout <<8500<<endl; break;
+   case 4: cout <<10500<<endl; break;
+   case 5: cout <<"this package cannot be shipped"<<endl; break;
+   case 6: cout <<"invalid input"<<endl; break;
+ }
+
+*/
+
+ // problem 20
+
+ cout << "enter a digit :";
+ int raq;
+ cin >> raq;
+ if (raq >= 0 && raq <= 9) {
+  switch (raq) {
+   case 0: cout << "zero" << endl; break;
+    case 1: cout << "one" << endl; break;
+    case 2: cout << "two" << endl; break;
+    case 3: cout << "three" << endl; break;
+    case 4: cout << "four" << endl; break;
+    case 5: cout << "five" << endl; break;
+    case 6: cout << "six" << endl; break;
+    case 7: cout << "seven" << endl; break;
+    case 8: cout << "eight" << endl; break;
+    case 9: cout << "nine" << endl; break;
+  }
+ }
+ else { cout << "it is not a digit" << endl; }
+
+
+
+
+ return 0;
 }
