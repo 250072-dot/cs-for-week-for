@@ -2,10 +2,11 @@
 #include <string>
 #include <cctype>
 #include <map>
+#include <cmath>
 using namespace std;
 
 int main() {
- /*
+
   // problem 1
 
    int x;
@@ -19,7 +20,11 @@ int main() {
 
     if (x%2==0) { cout<<" the number is even and "<< ((x>0) ? "positive" : "negative")<<endl; }
     else { cout<<"The number is odd and "<<((x>0) ? "positive" : "negative")<<endl; }
+
+
     //problem 3
+
+
     float a2,b2,c2;
     cout<<"enter a,b and c: and I will find the greatest one "<<endl;
     cin>>a2>>b2>>c2;
@@ -120,6 +125,7 @@ int main() {
     else if (pr2/we2>we1/pr1) {cout<<"package 1 has better price"<<endl;}
     else {cout<<"they are equal"<<endl;}
 
+
     //problem 12
 
 
@@ -129,7 +135,10 @@ int main() {
     if (pol/100==pol%10 && pol !=0) {cout << "this is polindrom";}
     else {cout << "this is not polindrom";}
 
+
     //porblem 13
+
+
 
     char light;
     cout << "enter a traffic lihgt colour :";
@@ -202,6 +211,7 @@ int main() {
 
  //problem 17
 
+
  float num9;
  int be;
  cout << "enter a number :";
@@ -220,6 +230,7 @@ else if (num9<0) be=-1;
 
  //problem 18
 
+
  char lang;
  cout << "select a language that computer greets them: u,e,r,g >> ";
  cin >> lang;
@@ -235,6 +246,9 @@ else if (num9<0) be=-1;
 
 
  //problem 19
+
+
+
 float wieght;
  int cas;
  cout << "enter the wieght :";
@@ -255,7 +269,7 @@ float wieght;
    case 6: cout <<"invalid input"<<endl; break;
  }
 
-*/
+
 
  // problem 20
 
@@ -277,6 +291,9 @@ float wieght;
   }
  }
  else { cout << "it is not a digit" << endl; }
+
+
+
 
 
 
